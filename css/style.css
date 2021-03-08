@@ -1,0 +1,186 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+body {
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+
+nav ul a,
+nav .brand-logo {
+  color: #1b5e20;
+}
+
+.brand-logo {
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+
+.nav-wrapper {
+  padding: 0 50px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #1b5e20;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+
+
+  .intro-section {
+    height: 100%;
+    width: 100%;
+  }
+
+  .header {
+    margin-top: 15%;
+  }
+
+  .header-sottotitolo {
+    font-size: 1.3em;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+ .nav-wrapper {
+  padding: 0 10px;
+  }
+}
+
+.btn-intro {
+  margin-bottom: 30px;
+}
+
+
+.col-servizio {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+
+#servizio h5 {
+  font-size: 1.3em;
+  line-height: 1.6em;
+}
+
+
+
+.registrazione-section {
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+.registrazione-sottititolo {
+  margin-top: 5%;
+}
+
+.registrazione-icon {
+  font-size: 7em;
+  margin-top: 60px;
+}
+
+
+.btn-registrazione {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+
+
+.col-compila {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+
+.compila.section {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+
+.ospita-sottotitolo {
+  margin-bottom: 30%;
+}
+
+
+.btn-ospita {
+  width: 100%;
+  margin-bottom: 5%;
+  }
+
+
+
+.motto-section {
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+.motto-sottotitolo {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+
+.social-icon {
+  font-size: 1.5em;
+  color: #fff;
+  padding: 0 20px;
+}
+
+
+
+.social-icon:hover {
+  color: #c5e1a5;
+
+}
